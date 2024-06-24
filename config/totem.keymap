@@ -33,16 +33,19 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
+        lt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <27 28>;
         };
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 1>;
+        gt {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <30 29>;
+        };
+
+        double-quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <28 29>;
         };
     };
 
