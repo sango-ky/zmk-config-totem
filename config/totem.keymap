@@ -47,6 +47,16 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <28 29>;
         };
+
+        BT0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <0 1>;
+        };
+
+        BT1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <0 2>;
+        };
     };
 
     macros {
