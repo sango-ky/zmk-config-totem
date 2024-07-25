@@ -57,6 +57,11 @@
             bindings = <&bt BT_SEL 1>;
             key-positions = <0 2>;
         };
+
+        BT2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <0 3>;
+        };
     };
 
     macros {
@@ -101,7 +106,7 @@
        &kp Q       &kp W       &kp E        &kp R        &kp T        &kp Y      &kp U            &kp I        &kp O       &kp P
        &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H      &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RGUI MINUS
 &kp Q  &kp Z       &kp X       &kp C        &kp V        &kp B        &kp N      &kp M            &kp COMMA    &kp DOT     &kp FSLH        &kp P
-                               &kp ESC      &lt 3 SPACE  &lt 3 TAB    &lt 2 RET  &lt 1 BACKSPACE  &kp DELETE
+                               &kp ESC      &lt 3 SPACE  &lt 4 TAB    &lt 2 RET  &lt 1 BACKSPACE  &kp DELETE
             >;
         };
 
