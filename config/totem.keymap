@@ -118,10 +118,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                   &kp Q       &kp W       &kp F           &kp P        &kp B         &kp J       &kp L            &kp U        &kp Y       &kp SEMI
-                   &mt LGUI A  &mt LALT R  &mt LCTRL S     &mt LSHFT T  &mt LGUI G    &mt RGUI M  &mt RSHFT N      &mt RCTRL E  &mt RALT I  &mt RGUI O
-&kp DOUBLE_QUOTES  &kp X       &kp C       &kp D           &kp V        &kp Z         &kp K       &kp H            &kp COMMA    &kp DOT     &kp FSLH    &kp MINUS
-                                           &kp LEFT_SHIFT  &lt 3 SPACE  &lt 4 TAB     &lt 2 RET   &lt 1 BACKSPACE  &kp DELETE
+                   &kp Q       &kp W       &kp F             &kp P        &kp B         &kp J       &kp L            &kp U        &kp Y       &kp SEMI
+                   &mt LGUI A  &mt LALT R  &mt LCTRL S       &mt LSHFT T  &mt LGUI G    &mt RGUI M  &mt RSHFT N      &mt RCTRL E  &mt RALT I  &mt RGUI O
+&kp DOUBLE_QUOTES  &kp X       &kp C       &kp D             &kp V        &kp Z         &kp K       &kp H            &kp COMMA    &kp DOT     &kp FSLH    &kp MINUS
+                                           &lt 1 LEFT_SHIFT  &lt 3 SPACE  &lt 4 TAB     &lt 2 RET   &lt 1 BACKSPACE  &kp DELETE
             >;
         };
 
